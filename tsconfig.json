@@ -10,14 +10,10 @@
     "noEmit": true,
     "sourceMap": true,
     "allowJs": true,
-    "paths": {
-      "@sap/cds": [
-        "./node_modules/@cap-js/cds-types"
-      ],
-      "#cds-models/*": [
-        "./@cds-models/*"
-      ]
-    }
+    "types": [
+      "node",
+      "@cap-js/cds-types"
+    ]
   },
   "exclude": [
     "app"
